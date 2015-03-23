@@ -1,0 +1,24 @@
+{
+  "name": "tuspasos",
+  "version": "0.0.0",
+  "authors": [
+    "GrizzlyViking <sebastian@edelmann.co.uk>"
+  ],
+  "description": "Fabi's reflexology site",
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "homepage": "www.tuspasosreflexology.co.uk",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.3",
+    "bootstrap": "~3.3.4"
+  }
+}

@@ -22,6 +22,7 @@
 
         body {
             font-family: 'Raleway', sans-serif;
+            background: url("images/background_bars.png") repeat-y;
         }
 
         #title_header {
@@ -47,7 +48,7 @@
             height: 8px;
         }
         .footer_bar {
-            height: 36px;
+            height: 8px;
         }
         .bars {
             background-color: #7FC6C1;
@@ -55,21 +56,24 @@
             border-bottom: 1px  #666666 solid;
         }
         .btn-group-vertical {
-            margin-top: 30%;
-            margin-left: 15%;
+            margin: 20px;
         }
         .btn-group-vertical button.btn {
             font-family: 'Raleway', sans-serif;
-            letter-spacing: 0.0001em;
             border: none !important;
             text-align: left;
-            font-size: 1.8vw;
-            color: #666666;
+            font-size: 18px;
+
         }
 
         .turquoise {
             background-color: #7FC6C1;
             border: 1px #666666 solid;
+        }
+
+        .section-header {
+            margin-top: 10px;
+            font-size: 18px;
         }
     </style>
 </head>
@@ -77,8 +81,8 @@
 <div id="title_header">
     <div class="header_bar bars" style="top: 0;height: 8px;"></div>
     <div class="row">
-        <div class="col-sm-3">
-            {!! HTML::image('images/tus_pasos_logo.png') !!}
+        <div class="col-sm-3" style="background-color: #ffffff; width: 100%;">
+            {!! HTML::image('images/tuspas_logo.png') !!}
 
         </div>
     </div>
@@ -86,20 +90,21 @@
 </div>
 
 <div class="row">
-    <div class="col-sm-3" style="padding-bottom: 30px;">
+    <div class="col-sm-3 col-sm-offset-1" style="margin-top: 25px; padding-bottom: 30px;border-right: 1px darkgray solid;">
         <div class="btn-group-vertical" role="group">
             <button type="button" class="btn btn-default">{!! link_to_route('home', 'home') !!}</button>
-            <button type="button" class="btn btn-default">{!! link_to_route('about', 'about me') !!}</button>
-            <button type="button" class="btn btn-default">what is reflexology</button>
-            <button type="button" class="btn btn-default">reflexology session</button>
-            <button type="button" class="btn btn-default">reflexology lymph drainage</button>
-            <button type="button" class="btn btn-default">facial reflexology</button>
-            <button type="button" class="btn btn-default">hand reflexology</button>
-            <button type="button" class="btn btn-default">prices</button>
-            <button type="button" class="btn btn-default">contact</button>
+            <button type="button" class="btn btn-default">{!! link_to_route('about', 'about') !!}</button>
+            <button type="button" class="btn btn-default">{!! link_to_route('whatis', 'what is reflexology') !!}</button>
+            <button type="button" class="btn btn-default">{!! link_to_route('session', 'reflexology session') !!}</button>
+            <button type="button" class="btn btn-default">{!! link_to_route('lymph_drainage', 'reflexology lymph drainage') !!}</button>
+            <button type="button" class="btn btn-default">{!! link_to_route('facial', 'facial reflexology') !!}</button>
+            <button type="button" class="btn btn-default">{!! link_to_route('hand', 'hand reflexology') !!}</button>
+            <button type="button" class="btn btn-default">{!! link_to_route('testimonials', 'testimonials') !!}</button>
+            <button type="button" class="btn btn-default">{!! link_to_route('prices', 'prices') !!}</button>
+            <button type="button" class="btn btn-default">{!! link_to_route('contact', 'contact') !!}</button>
         </div>
     </div>
-    <div class="col-sm-9" style="padding-left: 30px;">
+    <div class="col-sm-8" style="padding-left: 30px;">
         @yield('content')
     </div>
 </div>

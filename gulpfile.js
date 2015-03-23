@@ -18,9 +18,9 @@ var paths = {
 
 
 elixir(function(mix) {
-    mix.copy("./vendor/jquery/dist/jquery.js", "public/js/jquery.js")
-       .copy("./vendor/bootstrap/dist/js/bootstrap.js", "public/js/bootstrap.js")
-        .copy("./vendor/bootstrap/dist/css/bootstrap.css", "public/css/bootstrap.css")
+    mix.copy("./vendor/jquery/dist/**", "public/js/")
+       .copy("./vendor/bootstrap/dist/js/**", "public/js/")
+        .copy("./vendor/bootstrap/dist/css/**", "public/css/")
         .copy("./vendor/bootstrap/dist/fonts/**", "public/fonts/")
         .scripts([
             "public/js/jquery.js",

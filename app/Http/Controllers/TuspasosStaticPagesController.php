@@ -64,6 +64,6 @@ class TuspasosStaticPagesController extends Controller {
 
 	public function contact()
 	{
-		return view('fabi.prices');
+		return view('fabi.contact');
 	}
 }

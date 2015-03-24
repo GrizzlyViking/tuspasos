@@ -4,7 +4,7 @@
 
     <div class="panel panel-default section-header">
         <div class="panel-body">
-            Welcome to tus pasos reflexology
+            welcome to <span class="turquoise">tus pasos reflexology</span>
         </div>
     </div>
     <div class="row" style="padding-right: 15px;padding-bottom: 50px;"><div class="col-sm-5">
@@ -12,14 +12,14 @@
         through life so much and probably forget to stop and
         take timeout for ourselves.  When we do that, our stress
         levels build up and we enjoy life less and our overall
-        wellbeing suffers.</p>
+        well-being suffers.</p>
 
-        <p>Our Reflexology treatments are the perfect relief for modern
+        <p>Our reflexology treatments are the perfect relief for modern
         life, helping you to manage stress, improve your sleep
         patterns, cope with pain and just feel more balanced and
         relaxed.</p>
 
-        <p>We provide foot,hand and facial Reflexology treatments in
+        <p>We provide foot,hand and facial reflexology treatments in
         Andover and Wilton, enabling us to treat anyone, from the
         young to the elderly, men, women and those with specific
         needs.</p>

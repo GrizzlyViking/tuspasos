@@ -21,8 +21,9 @@
     <style>
 
         body {
-            font-family: 'Raleway', sans-serif;
+            font-family: "Arial", sans-serif;
             background: url("images/background_bars.png") repeat-y;
+            color: #9a9a9a;
         }
 
         #title_header {
@@ -48,6 +49,7 @@
             height: 8px;
         }
         .footer_bar {
+            margin-top: 40px;
             height: 8px;
         }
         .bars {
@@ -57,7 +59,7 @@
         }
 
         .navigation_list {
-            font-family: 'Raleway', sans-serif;
+            font-family: "Arial", sans-serif;
             border: none !important;
             text-align: left;
             font-size: 18px;
@@ -68,17 +70,26 @@
         }
         .navigation_list a {
             text-decoration: none;
+            color: #9a9a9a;
+        }
+
+        .navigation_list li {
+            padding-top: 7px;
+            padding-left: 2px;
+            padding-bottom: 7px;
         }
 
         .navigation_list li:hover {
-            background-color: lightgray;
-            font-weight: bolder;
+            background-color: #f9f9f9;
             color: #7fc6c1;
         }
 
+        .main_logo {
+            margin-left: 70px;
+        }
+
         .turquoise {
-            background-color: #7FC6C1;
-            border: 1px #666666 solid;
+            color: #7FC6C1;
         }
 
         .section-header {
@@ -91,9 +102,14 @@
 <div id="title_header">
     <div class="header_bar bars" style="top: 0;height: 8px;"></div>
     <div class="row">
-        <div class="col-sm-3" style="background-color: #ffffff; width: 100%;">
-            {!! HTML::image('images/tuspas_logo.png') !!}
-
+        <div class="col-sm-3">
+            <a href="{!! route('home') !!}">{!! HTML::image('images/tuspas_logo.png', 'tuspasos logo', ['class' => 'main_logo']) !!}</a>
+        </div>
+        <div class="col-sm-3 col-sm-offset-5">
+            <p style="margin-top: 36px;font-size: larger;">
+                tel: 07514 024 008<br>
+            email: info@tuspasosreflexology.co.uk<br>
+            Andover  |  Wilton</p>
         </div>
     </div>
     <div class="header_bar bars" style="bottom: 0;"></div>
@@ -103,9 +119,9 @@
     <div class="col-sm-2" style="min-width: 360px; margin-top: 25px; padding-bottom: 30px;border-right: 1px darkgray solid;">
 
             <ul class="navigation_list">
-                <a href="{!! route('home') !!}"><li>Home</li></a>
-                <a href="{!! route('about') !!}"><li>About</li></a>
-                <a href="{!! route('whatis') !!}"><li>what is reflexology</li></a>
+                <a href="{!! route('home') !!}"><li>home</li></a>
+                <a href="{!! route('about') !!}"><li>about</li></a>
+                <a href="{!! route('whatis') !!}"><li>what is reflexology ?</li></a>
                 <a href="{!! route('session') !!}"><li>reflexology session</li></a>
                 <a href="{!! route('lymph_drainage') !!}"><li>reflexology lymph drainage</li></a>
                 <a href="{!! route('facial') !!}"><li>facial reflexology</li></a>

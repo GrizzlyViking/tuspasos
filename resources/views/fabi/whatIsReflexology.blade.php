@@ -10,7 +10,7 @@
     <div class="row">
         <div class="col-sm-7">
             <p>Reflexology is a complementary therapy that can be used by any age, from the new born to
-                the elderly, whichinvolves the application of gentle pressure to reflex areas in the feet,
+                the elderly, which involves the application of gentle pressure to reflex areas in the feet,
                 hands and face. These reflex points correspond to all the organs, glands and parts of the
                 body. Stimulating these reflexes properly may help with a variety of health problems in a
                 natural way, such as:</p>

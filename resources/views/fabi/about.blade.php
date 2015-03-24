@@ -9,7 +9,7 @@
 
     <div class="row">
         <div class="col-sm-7">
-            <p>Tus Pasos Reflexology was established by Fabiana Vogt with the aim to provide high standard
+            <p><span class="turquoise">Tus Pasos Reflexology</span> was established by Fabiana Vogt with the aim to provide high standard
             clinical reflexology treatments in Andover and Wilton.</p>
 
             <p>Fabiana has had a long standing interest in complementary and holistic therapies and first

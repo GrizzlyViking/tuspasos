@@ -18,10 +18,13 @@
 
             <p><b>Benefits of Hand Reflexology:</b><br><br>
 
-            Relieves stress and anxiety<br><br>
-            Helps to relive pain in the arms and hands linked to conditions such as carpal tunnel
-                syndrome, frozen shoulder, whiplash and tennis elbow.<br><br>
-            Clients are able to work on their own hands between treatments</p>
+            <ul>
+                <li>Relieves stress and anxiety</li>
+                <li>Helps to relive pain in the arms and hands linked to conditions such as carpal tunnel
+                    syndrome, frozen shoulder, whiplash and tennis elbow.
+                </li>
+                <li>Clients are able to work on their own hands between treatments</li>
+            </ul>
         </div>
 
         <div class="col-sm-5">

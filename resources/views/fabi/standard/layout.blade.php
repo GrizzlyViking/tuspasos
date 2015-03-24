@@ -55,15 +55,25 @@
             border-top: 1px #666666 solid;
             border-bottom: 1px  #666666 solid;
         }
-        .btn-group-vertical {
-            margin: 20px;
-        }
-        .btn-group-vertical button.btn {
+
+        .navigation_list {
             font-family: 'Raleway', sans-serif;
             border: none !important;
             text-align: left;
             font-size: 18px;
+            list-style-type: none;
+            margin-left: 60px;
+            min-width: 290px;
+            padding-right: 10px;
+        }
+        .navigation_list a {
+            text-decoration: none;
+        }
 
+        .navigation_list li:hover {
+            background-color: lightgray;
+            font-weight: bolder;
+            color: #7fc6c1;
         }
 
         .turquoise {
@@ -90,19 +100,20 @@
 </div>
 
 <div class="row">
-    <div class="col-sm-3 col-sm-offset-1" style="margin-top: 25px; padding-bottom: 30px;border-right: 1px darkgray solid;">
-        <div class="btn-group-vertical" role="group">
-            <button type="button" class="btn btn-default">{!! link_to_route('home', 'home') !!}</button>
-            <button type="button" class="btn btn-default">{!! link_to_route('about', 'about') !!}</button>
-            <button type="button" class="btn btn-default">{!! link_to_route('whatis', 'what is reflexology') !!}</button>
-            <button type="button" class="btn btn-default">{!! link_to_route('session', 'reflexology session') !!}</button>
-            <button type="button" class="btn btn-default">{!! link_to_route('lymph_drainage', 'reflexology lymph drainage') !!}</button>
-            <button type="button" class="btn btn-default">{!! link_to_route('facial', 'facial reflexology') !!}</button>
-            <button type="button" class="btn btn-default">{!! link_to_route('hand', 'hand reflexology') !!}</button>
-            <button type="button" class="btn btn-default">{!! link_to_route('testimonials', 'testimonials') !!}</button>
-            <button type="button" class="btn btn-default">{!! link_to_route('prices', 'prices') !!}</button>
-            <button type="button" class="btn btn-default">{!! link_to_route('contact', 'contact') !!}</button>
-        </div>
+    <div class="col-sm-2" style="min-width: 360px; margin-top: 25px; padding-bottom: 30px;border-right: 1px darkgray solid;">
+
+            <ul class="navigation_list">
+                <a href="{!! route('home') !!}"><li>Home</li></a>
+                <a href="{!! route('about') !!}"><li>About</li></a>
+                <a href="{!! route('whatis') !!}"><li>what is reflexology</li></a>
+                <a href="{!! route('session') !!}"><li>reflexology session</li></a>
+                <a href="{!! route('lymph_drainage') !!}"><li>reflexology lymph drainage</li></a>
+                <a href="{!! route('facial') !!}"><li>facial reflexology</li></a>
+                <a href="{!! route('hand') !!}"><li>hand reflexology</li></a>
+                <a href="{!! route('testimonials') !!}"><li>testimonials</li></a>
+                <a href="{!! route('prices') !!}"><li>prices</li></a>
+                <a href="{!! route('contact') !!}"><li>contact</li></a>
+            </ul>
     </div>
     <div class="col-sm-8" style="padding-left: 30px;">
         @yield('content')

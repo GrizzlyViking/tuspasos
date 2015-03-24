@@ -22,63 +22,48 @@ class TuspasosStaticPagesController extends Controller {
 	 *
 	 * @return Response
 	 */
-	public function create()
+	public function about()
 	{
-		//
+		return view('fabi.about');
 	}
 
-	/**
-	 * Store a newly created resource in storage.
-	 *
-	 * @return Response
-	 */
-	public function store()
+	public function whatIs()
 	{
-		//
+		return view('fabi.whatIsReflexology');
 	}
 
-	/**
-	 * Display the specified resource.
-	 *
-	 * @param  int  $id
-	 * @return Response
-	 */
-	public function show($id)
+	public function session()
 	{
-		//
+		return view('fabi.sessions');
 	}
 
-	/**
-	 * Show the form for editing the specified resource.
-	 *
-	 * @param  int  $id
-	 * @return Response
-	 */
-	public function edit($id)
+	public function lymph()
 	{
-		//
+		return view('fabi.lymph');
 	}
 
-	/**
-	 * Update the specified resource in storage.
-	 *
-	 * @param  int  $id
-	 * @return Response
-	 */
-	public function update($id)
+	public function facial()
 	{
-		//
+		return view('fabi.facial');
 	}
 
-	/**
-	 * Remove the specified resource from storage.
-	 *
-	 * @param  int  $id
-	 * @return Response
-	 */
-	public function destroy($id)
+	public function hand()
 	{
-		//
+		return view('fabi.hand');
 	}
 
+	public function testimonials()
+	{
+		return view('fabi.testimonials');
+	}
+
+	public function prices()
+	{
+		return view('fabi.prices');
+	}
+
+	public function contact()
+	{
+		return view('fabi.prices');
+	}
 }

@@ -86,6 +86,7 @@
 </div>
 
 <div class="row">
+    <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
     <div class="col-sm-3" style="padding-bottom: 30px;">
         <div class="btn-group-vertical" role="group">
             <button type="button" class="btn btn-default">{!! link_to_route('home', 'home') !!}</button>
@@ -110,8 +111,8 @@
 
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-{!! HTML::script('js/jquery.min.js') !!}
+{!! HTML::script('js/jquery.js') !!}
 <!-- Include all compiled plugins (below), or include individual files as needed -->
-{!! HTML::script('js/bootstrap.min.js') !!}
+{!! HTML::script('js/bootstrap.js') !!}
 </body>
 </html>

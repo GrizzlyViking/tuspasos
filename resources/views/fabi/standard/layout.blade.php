@@ -4,7 +4,10 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>@yield('title', 'Tuspasos')</title>
+    <meta name="description" content="Reflexology Andover">
+    <meta name="keywords" content="Reflexology, Andover, Wilton, Hand Reflexology, facial reflexology, reflexology lymph drainage, what is reflexology, foot reflexology, reflexology hampshire, reflexology Andover, reflexology Wilton">
+    <meta name="author" content="Natalia Schlossberg">
+    <title>@yield('title', 'Tuspasos | Reflexology Andover')</title>
 
     <!-- Google Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Raleway:100' rel='stylesheet' type='text/css'>

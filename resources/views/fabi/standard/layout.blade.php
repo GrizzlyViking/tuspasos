@@ -106,7 +106,7 @@
     <div class="header_bar bars" style="top: 0;height: 8px;"></div>
     <div class="row">
         <div class="col-sm-3">
-            <a href="{!! route('home') !!}">{!! HTML::image('images/tuspas_logo.png', 'tuspasos logo', ['class' => 'main_logo']) !!}</a>
+            <a href="{!! route('home') !!}">{!! HTML::image('images/tuspas_logo.png', 'tuspasos logo', ['class' => 'main_logo img-responsive']) !!}</a>
         </div>
         <div class="col-sm-3 col-sm-offset-5">
             <p style="margin-top: 36px;font-size: larger;">

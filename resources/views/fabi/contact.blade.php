@@ -48,4 +48,11 @@
                     width="300" height="250" frameborder="0" style="border:0"></iframe>
         </div>
     </div>
+    <div style="width: 100%; text-align: center;">
+        <!-- Facebook Badge START --><a href="https://www.facebook.com/TusPasosReflexology" title="Tus Pasos Reflexology"
+                                        style="font-family: &quot;lucida grande&quot;,tahoma,verdana,arial,sans-serif; font-size: 11px; font-variant: normal; font-style: normal; font-weight: normal; color: #3B5998; text-decoration: none;"
+                                        target="_TOP">Tus Pasos Reflexology</a><br/><a
+                href="https://www.facebook.com/TusPasosReflexology" title="Tus Pasos Reflexology" target="_TOP">
+            <img class="img" src="https://badge.facebook.com/badge/1367286352304.2050834.1536048346.png" style="border: 0px;" alt=""/></a><br/><!-- Facebook Badge END -->
+    </div>
 @stop

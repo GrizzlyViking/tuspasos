@@ -168,6 +168,9 @@
                     <li><a href="{!! route('testimonials') !!}">testimonials</a></li>
                     <li><a href="{!! route('prices') !!}">prices</a></li>
                     <li><a href="{!! route('contact') !!}">contact</a></li>
+                    <li>&nbsp;</li>
+                    <li>&nbsp;</li>
+                    <li>---</li>
                 </ul>
             </div>
             <div class="main col-md-9 col-sm-offset-2 col-md-offset-2">

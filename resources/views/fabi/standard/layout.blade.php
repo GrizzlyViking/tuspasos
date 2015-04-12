@@ -15,6 +15,9 @@
     <!-- Bootstrap -->
     {!! HTML::style('css/bootstrap.min.css') !!}
 
+    <!-- Bootstrap-sidebar -->
+    {!! HTML::style('css/sidebar.css') !!}
+
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -25,8 +28,12 @@
 
         body {
             font-family: "Arial", sans-serif;
-            background: url("images/background_bars.png") repeat-y;
+            background-color: #cccccc;
             color: #9a9a9a;
+        }
+
+        .container {
+            background-color: #f9f9f9;
         }
 
         #title_header {
@@ -59,6 +66,24 @@
             background-color: #7FC6C1;
             border-top: 1px #666666 solid;
             border-bottom: 1px  #666666 solid;
+            margin-left: -15px;
+            margin-right: -15px;
+        }
+
+        .sidebar-open {
+            background-color: #f9f9f9;
+        }
+
+        .navbar-stacked a:visited {
+            color:  #515151;
+        }
+
+        .navbar-stacked li a:hover {
+            color: #7FC6C1;
+        }
+
+        .navbar-default {
+            border: none;
         }
 
         .navigation_list {
@@ -102,44 +127,59 @@
     </style>
 </head>
 <body>
-<div id="title_header">
+<div class="container col-md-offset-1 col-md-10" id="container">
+    <!-- Fixed navbar -->
     <div class="header_bar bars" style="top: 0;height: 8px;"></div>
-    <div class="row">
-        <div class="col-sm-3">
-            <a href="{!! route('home') !!}">{!! HTML::image('images/tuspas_logo.png', 'tuspasos logo', ['class' => 'main_logo img-responsive']) !!}</a>
-        </div>
-        <div class="col-sm-3 col-sm-offset-5">
-            <p style="margin-top: 36px;font-size: larger;">
-                tel: 07514 024 008<br>
-            email: info@tuspasosreflexology.co.uk<br>
-            Andover  |  Wilton</p>
+    <div class="navbar navbar-static navbar-default col-md-offset-1">
+        <div class="container-fluid">
+            <div class="navbar-header" style="width: 100%;">
+                <button type="button" class="navbar-toggle toggle-left hidden-md hidden-lg" data-toggle="sidebar" data-target=".sidebar-left">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="{!! route('home') !!}">
+                    {!! HTML::image('images/tuspas_logo.png', 'tuspasos logo', ['style' => 'margin-bottom: -10px;']) !!}
+                </a>
+                <div style="float: right;margin-top: 25px;">
+                        tel: 07514 024 008<br>
+                        email: info@tuspasosreflexology.co.uk<br>
+                        Andover  |  Wilton
+                </div>
+            </div>
         </div>
     </div>
-    <div class="header_bar bars" style="bottom: 0;"></div>
+    <div class="header_bar bars" style="top: 0;height: 8px;"></div>
+    <!-- Begin page content -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-4 col-sm-2 col-md-2 sidebar sidebar-left sidebar-animate sidebar-md-show col-md-offset-1">
+                <ul class="nav navbar-stacked">
+                    <li style="margin-bottom: 40px;">&nbsp;</li>
+                    <li>&nbsp;</li>
+                    <li><a href="{!! route('home') !!}">home</a></li>
+                    <li><a href="{!! route('about') !!}">about</a></li>
+                    <li><a href="{!! route('whatis') !!}">what is reflexology?</a></li>
+                    <li><a href="{!! route('session') !!}">reflexology session</a></li>
+                    <li><a href="{!! route('lymph_drainage') !!}">lymph drainage</a></li>
+                    <li><a href="{!! route('facial') !!}">facial reflexology</a></li>
+                    <li><a href="{!! route('hand') !!}">hand reflexology</a></li>
+                    <li><a href="{!! route('testimonials') !!}">testimonials</a></li>
+                    <li><a href="{!! route('prices') !!}">prices</a></li>
+                    <li><a href="{!! route('contact') !!}">contact</a></li>
+                </ul>
+            </div>
+            <div class="main col-md-9 col-sm-offset-2 col-md-offset-2">
+                @yield('content')
+            </div>
+        </div>
+    </div>
+
+
+    <div class="footer_bar bars"></div></div>
 </div>
 
-<div class="row">
-    <div class="col-sm-2" style="min-width: 360px; margin-top: 25px; padding-bottom: 30px;border-right: 1px darkgray solid;">
 
-            <ul class="navigation_list">
-                <a href="{!! route('home') !!}"><li>home</li></a>
-                <a href="{!! route('about') !!}"><li>about</li></a>
-                <a href="{!! route('whatis') !!}"><li>what is reflexology ?</li></a>
-                <a href="{!! route('session') !!}"><li>reflexology session</li></a>
-                <a href="{!! route('lymph_drainage') !!}"><li>reflexology lymph drainage</li></a>
-                <a href="{!! route('facial') !!}"><li>facial reflexology</li></a>
-                <a href="{!! route('hand') !!}"><li>hand reflexology</li></a>
-                <a href="{!! route('testimonials') !!}"><li>testimonials</li></a>
-                <a href="{!! route('prices') !!}"><li>prices</li></a>
-                <a href="{!! route('contact') !!}"><li>contact</li></a>
-            </ul>
-    </div>
-    <div class="col-sm-8" style="padding-left: 30px;">
-        @yield('content')
-    </div>
-</div>
-
-<div class="footer_bar bars"></div>
 
 
 
@@ -148,5 +188,7 @@
 {!! HTML::script('js/jquery.min.js') !!}
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 {!! HTML::script('js/bootstrap.min.js') !!}
+
+{!! HTML::script('js/sidebar.js') !!}
 </body>
 </html>

@@ -10,7 +10,7 @@
     <div class="row">
         <div class="col-sm-7">
             <p>When you come for a treatment, depending on the type of reflexology, the most clothing that
-            will have have to be removed will be your socks and shoes.</p>
+            will have to be removed will be your socks and shoes.</p>
 
             <p>A full medical history will be requested, this enables the therapist to find out a bit more
             about you and tailor the treatment to best suit your needs. Therefore please allow at least
@@ -19,6 +19,9 @@
 
             <p>The therapist then use their hands to apply pressure to the feet and lower leg, hands or face
             dependent upon the type of reflexology chosen.</p>
+
+            <p>At Tus Pasos Reflexology appointments are given with adequate time. Should you require extra
+                time, it will be provided without additional charge. What is most important is that you reap the benefits of reflexology with each session.</p>
         </div>
 
         <div class="col-sm-5">

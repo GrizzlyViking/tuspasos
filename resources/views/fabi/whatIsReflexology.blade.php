@@ -15,15 +15,19 @@
                 body. Stimulating these reflexes properly may help with a variety of health problems in a
                 natural way, such as:</p>
 
-            <p>Fertility<br>
-                Arthritis, sciatica, chronic back pain<br>
-                Stress related conditions (hypertension, migraines, insomnia,<br>
-                anxiety, digestive problems such as IBS)<br>
-                Hormone imbalances</p>
+
+            <ul>
+                <li>Arthritis, sciatica, chronic back pain</li>
+                <li>Stress related conditions (hypertension, migraines, insomnia,
+                    anxiety, digestive problems such as IBS)
+                </li>
+                <li>Hormone imbalances</li>
+                <li>Fertility</li>
+            </ul><br>
 
 
 
-            <b>Benefits of Reflexology:</b>
+            <b>Benefits of Reflexology:</b><br><br>
 
             <ul>
                 <li>Helps relieve stress and tension and restores vitality.</li>

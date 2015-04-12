@@ -13,26 +13,31 @@
                 <td colspan="3" style="padding-bottom: 10px;"><b>Individual Treatments</b></td>
             </tr>
             <tr>
-                <td style="min-width: 200px;">Foot Reflexology</td><td style="min-width: 150px;">1hr.</td><td>£ 35</td>
+                <td style="min-width: 200px;">Foot Reflexology <span style="color:red">*</span></td><td style="min-width: 150px;">1hr.</td><td>£ 35</td>
             </tr>
             <tr>
                 <td>Hand Reflexology</td><td>50 mins.</td><td>£ 25</td>
             </tr>
             <tr>
-                <td>Facial Reflexology </td><td>1hr.</td><td>£ 30</td>
+                <td>Facial Reflexology <span style="color:red">*</span></td><td>1hr.</td><td>£ 35</td>
             </tr>
             <tr>
-                <td>Facial Reflexology</td><td>30 mins.</td><td>£ 15</td>
+                <td>Facial Reflexology</td><td>30 mins.</td><td>£ 20</td>
             </tr>
             <tr>
                 <td>Lymph Drainage</td><td>1hr.</td><td>£ 35</td>
             </tr>
             <tr>
-                <td>Taster sessions</td><td>&nbsp;</td><td>£ 5</td>
+                <td>Taster sessions</td><td>&nbsp;</td><td>£ 10</td>
             </tr>
                 <tr><td colspan="3">&nbsp;</td></tr>
             <tr>
-                <td colspan="3"  style="padding-bottom: 10px;"><b>Combined Treatments</b></td>
+                <td colspan="3"><p><span style="color:red">*</span> Pay for 5 treatments in advance and have 1 treatment free (not applicable with
+                        already discounted treatments).</p></td>
+            </tr>
+                <tr><td colspan="3">&nbsp;</td></tr>
+            <tr>
+                <td colspan="3"  style="padding-bottom: 10px;"><b>We also offer a combination of reflexology treatments designed especially for you:</b></td>
             </tr>
             <tr>
                 <td>Foot & Hand Reflexology</td><td>1hr 50</td><td>£ 45</td>
@@ -48,10 +53,7 @@
 
     <div class="row" style="margin-top: 15px;">
         <div class="col-sm-9">
-            <p><b style="padding-bottom: 20px;">Treatment Package</b><br>
 
-            Pay for 5 treatments in advance and have 1 treatment free (not applicable with
-            already discounted treatments).</p>
 
             <p><b>Gift Vouchers Available</b></p>
 

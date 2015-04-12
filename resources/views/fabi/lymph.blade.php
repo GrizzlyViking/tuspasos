@@ -30,6 +30,13 @@
                 <li>Fibromyalgia</li>
                 <li>Rheumatoid Arthritis and Arthritis</li>
                 <li>Asthma</li>
+                <li>Eczema</li>
+                <li>Hay Fever</li>
+                <li>Headaches</li>
+                <li>Migraines</li>
+                <li>Aches and pains</li>
+                <li>PMS</li>
+                <li>Sinus problems</li>
             </ul>
         </div>
 

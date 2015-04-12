@@ -14,12 +14,13 @@ var elixir = require('laravel-elixir');
 var paths = {
  'jquery': './vendor/jquery/dist/',
  'bootstrap': './vendor/bootstrap/dist/'
-}
+};
 
 
 elixir(function(mix) {
     mix.copy("./vendor/jquery/dist/**", "public/js/")
        .copy("./vendor/bootstrap/dist/js/**", "public/js/")
+        .copy("./vendor/bootstrap-sidebar/dist/**", "public/")
         .copy("./vendor/bootstrap/dist/css/**", "public/css/")
         .copy("./vendor/bootstrap/dist/fonts/**", "public/fonts/")
         .scripts([

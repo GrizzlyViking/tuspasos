@@ -17,7 +17,7 @@
             how therapeutic it can be.</p>
 
             <p>She holds the ABC level 3 Diploma in reflexology, which includes anatomy, physiology and
-            pathology, and trained at the London School of Reflexology with Louise Keet, Britain's
+            pathology and trained at the London School of Reflexology with Louise Keet, Britain's
             leading reflexology practitioner. In order to provide the highest clinical practice standard,
             Fabiana continues training in different areas within Reflexology.</p>
 

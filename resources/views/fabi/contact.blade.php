@@ -10,7 +10,7 @@
     <div class="row">
         <div class="col-sm-6 col-sm-offset-3" style="font-size: large;text-align: center; padding-bottom: 15px;">
             <b>tus pasos reflexology</b><br>
-            tel. 07514 024008<br>
+            tel. 07514 024 008<br>
             email <a href="mailto:info@tuspasosreflexoglogy.co.uk" class="turquoise">info@tuspasosreflexoglogy.co.uk</a>
         </div>
         <div class="col-sm-4 col-sm-offset-4">
@@ -48,11 +48,30 @@
                     width="300" height="250" frameborder="0" style="border:0"></iframe>
         </div>
     </div>
-    <div style="width: 100%; text-align: center;">
-        <!-- Facebook Badge START --><a href="https://www.facebook.com/TusPasosReflexology" title="Tus Pasos Reflexology"
-                                        style="font-family: &quot;lucida grande&quot;,tahoma,verdana,arial,sans-serif; font-size: 11px; font-variant: normal; font-style: normal; font-weight: normal; color: #3B5998; text-decoration: none;"
-                                        target="_TOP">Tus Pasos Reflexology</a><br/><a
-                href="https://www.facebook.com/TusPasosReflexology" title="Tus Pasos Reflexology" target="_TOP">
-            <img class="img" src="https://badge.facebook.com/badge/1367286352304.2050834.1536048346.png" style="border: 0px;" alt=""/></a><br/><!-- Facebook Badge END -->
+
+    <div class="row" style="margin-top: 10px;">
+        <div class="col-md-1 col-md-offset-4">
+            <!-- Facebook Badge START --><a href="https://www.facebook.com/TusPasosReflexology" title="Tus Pasos Reflexology" target="_TOP">
+                <img class="img" src="images/FB-f-Logo__blue_29.png" style="border: 0px;" alt=""/></a><!-- Facebook Badge END -->
+        </div>
+        <div class="col-md-2" style="text-align: center;">
+            <a href="https://twitter.com/tuspasos" class="twitter-follow-button" data-show-count="false" data-size="large">
+                {!! HTML::image('images/Twitter-icon.png') !!}
+            </a>
+        </div>
+        <div class="col-md-2"><a href="//plus.google.com/u/0/108157375223167832960?prsrc=3"
+                                 rel="publisher" target="_top" style="text-decoration:none;">
+                <img src="//ssl.gstatic.com/images/icons/gplus-32.png" alt="Google+"
+                     style="border:0;width:32px;height:32px;"/>
+            </a></div>
     </div>
+
+
+    <table>
+        <tr>
+
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
 @stop

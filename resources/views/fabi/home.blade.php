@@ -10,7 +10,7 @@
     <div class="row" style="padding-right: 15px;padding-bottom: 50px;"><div class="col-sm-5">
         <p>At Tus Pasos Reflexology we understand that we rush
         through life so much and probably forget to stop and
-        take timeout for ourselves.  When we do that, our stress
+        take time out for ourselves.  When we do that, our stress
         levels build up and we enjoy life less and our overall
         well-being suffers.</p>
 
@@ -19,7 +19,7 @@
         patterns, cope with pain and just feel more balanced and
         relaxed.</p>
 
-        <p>We provide foot,hand and facial reflexology treatments in
+        <p>We provide foot, hand and facial reflexology treatments in
         Andover and Wilton, enabling us to treat anyone, from the
         young to the elderly, men, women and those with specific
         needs.</p>
@@ -31,6 +31,8 @@
                 <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
                 <li data-target="#carousel-example-generic" data-slide-to="1"></li>
                 <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="4"></li>
             </ol>
 
             <!-- Wrapper for slides -->
@@ -51,6 +53,18 @@
                     {!! HTML::image('images/carousel/Reflexology_session.jpg') !!}
                     <div class="carousel-caption">
                         Reflexology Session
+                    </div>
+                </div>
+                <div class="item">
+                    {!! HTML::image('images/carousel/foot1.jpg') !!}
+                    <div class="carousel-caption">
+                        Foot Reflexology
+                    </div>
+                </div>
+                <div class="item">
+                    {!! HTML::image('images/carousel/foot2.jpg') !!}
+                    <div class="carousel-caption">
+                        Reflexology Lymph Drainage
                     </div>
                 </div>
             </div>

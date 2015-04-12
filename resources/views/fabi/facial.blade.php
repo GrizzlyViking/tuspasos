@@ -19,7 +19,7 @@
             powerful due to the proximity of the nerves cells connected to the brain stem and the
             release of endorphins.</p>
 
-            <p>Benefits of Facial Reflexology:<br><br>
+            <p><b>Benefits of Facial Reflexology:</b><br><br>
 
             <ul>
                 <li>Improves lymphatic and blood circulation</li>

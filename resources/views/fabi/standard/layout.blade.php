@@ -72,6 +72,7 @@
 
         .sidebar-open {
             background-color: #f9f9f9;
+            width: 300px;
         }
 
         .navbar-stacked a:visited {
@@ -153,7 +154,7 @@
     <!-- Begin page content -->
     <div class="container-fluid">
         <div class="row">
-            <div class="col-xs-4 col-sm-2 col-md-2 sidebar sidebar-left sidebar-animate sidebar-md-show col-md-offset-1">
+            <div class="col-xs-7 col-sm-2 col-md-2 sidebar sidebar-left sidebar-animate sidebar-md-show col-md-offset-1">
                 <ul class="nav navbar-stacked">
                     <li style="margin-bottom: 40px;">&nbsp;</li>
                     <li>&nbsp;</li>

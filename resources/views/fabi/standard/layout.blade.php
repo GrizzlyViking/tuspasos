@@ -72,12 +72,24 @@
 
         .sidebar-open {
             background-color: #f9f9f9;
-            width: 300px;
+            width: 250px;
+        }
+
+        .navbar-stacked a:link {
+            color:  #515151;
         }
 
         .navbar-stacked a:visited {
             color:  #515151;
         }
+
+        .nav>li>a {
+            padding: 5px 15px;
+        }
+        .nav>li>a:focus, .nav>li>a:hover {
+            background-color: transparent;
+        }
+
 
         .navbar-stacked li a:hover {
             color: #7FC6C1;
@@ -130,11 +142,12 @@
 <body>
 <div class="container col-md-offset-1 col-md-10" id="container">
     <!-- Fixed navbar -->
-    <div class="header_bar bars" style="top: 0;height: 8px;"></div>
+    <div class="header_bar bars" style="margin-top: 10px;top: 0;height: 8px;"></div>
     <div class="navbar navbar-static navbar-default col-md-offset-1">
         <div class="container-fluid">
             <div class="navbar-header" style="width: 100%;">
-                <button type="button" class="navbar-toggle toggle-left hidden-md hidden-lg" data-toggle="sidebar" data-target=".sidebar-left">
+                <button type="button" class="navbar-toggle toggle-left hidden-md hidden-lg" data-toggle="sidebar"
+                        data-target=".sidebar-left">
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
@@ -142,10 +155,11 @@
                 <a href="{!! route('home') !!}">
                     {!! HTML::image('images/tuspas_logo.png', 'tuspasos logo', ['style' => 'margin-bottom: -10px;']) !!}
                 </a>
+
                 <div style="float: right;margin-top: 25px;">
-                        tel: 07514 024 008<br>
-                        email: info@tuspasosreflexology.co.uk<br>
-                        Andover  |  Wilton
+                    tel: 07514 024 008<br>
+                    email: info@tuspasosreflexology.co.uk<br>
+                    Andover | Wilton
                 </div>
             </div>
         </div>
@@ -156,7 +170,7 @@
         <div class="row">
             <div class="col-xs-7 col-sm-2 col-md-2 sidebar sidebar-left sidebar-animate sidebar-md-show col-md-offset-1">
                 <ul class="nav navbar-stacked">
-                    <li style="margin-bottom: 40px;">&nbsp;</li>
+                    <li style="margin-bottom: 50px;">&nbsp;</li>
                     <li>&nbsp;</li>
                     <li><a href="{!! route('home') !!}">home</a></li>
                     <li><a href="{!! route('about') !!}">about</a></li>
@@ -170,7 +184,6 @@
                     <li><a href="{!! route('contact') !!}">contact</a></li>
                     <li>&nbsp;</li>
                     <li>&nbsp;</li>
-                    <li>---</li>
                 </ul>
             </div>
             <div class="main col-md-9 col-sm-offset-2 col-md-offset-2">
@@ -180,12 +193,10 @@
     </div>
 
 
-    <div class="footer_bar bars"></div></div>
+    <div class="footer_bar bars" style="margin-bottom: 5px;"></div>
+    <div class="row">
+        <span class="col-md-12" style="margin-bottom: 5px;text-align: center;">Copyright &#169; | Tus Pasos Reflexology 2015 | Website Designed by Edelmann Design.</span></div>
 </div>
-
-
-
-
 
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

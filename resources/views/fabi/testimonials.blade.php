@@ -8,7 +8,8 @@
     </div>
 
     <div class="row" style="font-style: italic">
-        <p>Hi there Fabi… just a few words of thanks for your sheer professionalism,  combined with quiet calming soothing manner,
+
+        <div class="col-md-12"><p>Hi there Fabi… just a few words of thanks for your sheer professionalism,  combined with quiet calming soothing manner,
         and emphatic nature, that seals you, as someone at the very top of your chosen career path.  I don’t have enough words to
         describe how wonderful it feels, to have the luxury of one your treatments … suffice to say, that every penny is well spent, to
         enjoy the sheer luxury of contentment that my body, and mind feels, when I leave your salon.   If anyone is any doubt how
@@ -37,6 +38,6 @@
             An awareness of being somewhere but being there without any stress continued to circulate throughout my body and with each breath a little more pressure seemed to leave me.
             At the end of this bespoke treatment I felt warm and comfortable and amazed that I had finally experienced a deeply relaxed state.
             In the days following the treatment I have noticed being able to move more freely and with a little less pain on occasions.
-            Fabi is a skilled reflexologist and having discovered the potent effects of her treatments I have booked more with her. Thanks Fabi. <b class="turquoise">Cheryl</b></p>
+            Fabi is a skilled reflexologist and having discovered the potent effects of her treatments I have booked more with her. Thanks Fabi. <b class="turquoise">Cheryl</b></p></div>
     </div>
 @stop

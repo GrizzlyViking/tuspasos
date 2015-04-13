@@ -24,7 +24,7 @@
         young to the elderly, men, women and those with specific
         needs.</p>
     </div>
-    <div class="col-sm-7" style="padding-bottom: 5px;padding-right: 15px;">
+    <div class="col-sm-7" style="padding-bottom: 5px;padding-right: 0px;">
         <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
             <!-- Indicators -->
             <ol class="carousel-indicators">

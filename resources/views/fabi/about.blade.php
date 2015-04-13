@@ -39,7 +39,7 @@
             </ul>
         </div>
         <div class="col-sm-5">
-            <div class="row" style="padding: 25px;">{!! HTML::image('images/Fabi.jpg', 'picture of Fabi', ['class' => 'img-responsive']) !!}</div>
+            <div class="row" style="padding: 5px 15px;">{!! HTML::image('images/Fabi.jpg', 'picture of Fabi', ['class' => 'img-responsive']) !!}</div>
             <div class="row" style="padding: 10px;">
                 <div class="col-sm-3 col-sm-offset-2">
                     {!! HTML::image('images/member-reflex.png', 'Member of reflexology Association', ['class' => 'img-responsive']) !!}

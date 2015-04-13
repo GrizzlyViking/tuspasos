@@ -142,7 +142,7 @@
                 <a href="{!! route('home') !!}">
                     {!! HTML::image('images/tuspas_logo.png', 'tuspasos logo', ['style' => 'margin-bottom: -10px;']) !!}
                 </a>
-                <div style="float: right;margin-top: 25px;">
+                <div class="hidden-xs" style="float: right;margin-top: 25px;">
                         tel: 07514 024 008<br>
                         email: info@tuspasosreflexology.co.uk<br>
                         Andover  |  Wilton

@@ -1,5 +1,9 @@
 @extends('fabi.standard.layout')
 
+@section('title')
+    Tus Pasos | Facial Reflexology
+@stop
+
 @section('content')
     <div class="panel panel-default section-header">
         <div class="panel-body">

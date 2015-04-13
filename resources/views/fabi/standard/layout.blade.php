@@ -5,9 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Reflexology Andover">
-    <meta name="keywords" content="Reflexology, Andover, Wilton, Hand Reflexology, facial reflexology, reflexology lymph drainage, what is reflexology, foot reflexology, reflexology hampshire, reflexology Andover, reflexology Wilton">
+    <meta name="keywords" content="Reflexology, Andover, Wilton, reflexology Andover, Tuspasos Andover, Tus Pasos Andover, Tuspasos Reflexology, Tus Pasos Reflexology, Tus Pasos Wilton, Hand Reflexology, facial reflexology, reflexology lymph drainage, what is reflexology, foot reflexology, reflexology hampshire, reflexology Wilton">
     <meta name="author" content="Natalia Schlossberg">
-    <title>@yield('title', 'Tuspasos | Reflexology Andover')</title>
+    <title>@yield('title', 'Tus Pasos | Reflexology Andover')</title>
 
     <!-- Google Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Raleway:100' rel='stylesheet' type='text/css'>

@@ -5,9 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Reflexology Andover">
-    <meta name="keywords" content="Reflexology, Andover, Wilton, Hand Reflexology, facial reflexology, reflexology lymph drainage, what is reflexology, foot reflexology, reflexology hampshire, reflexology Andover, reflexology Wilton">
+    <meta name="keywords" content="Reflexology, Andover, Wilton, reflexology Andover, Tuspasos Andover, Tus Pasos Andover, Tuspasos Reflexology, Tus Pasos Reflexology, Tus Pasos Wilton, Hand Reflexology, facial reflexology, reflexology lymph drainage, what is reflexology, foot reflexology, reflexology hampshire, reflexology Wilton">
     <meta name="author" content="Natalia Schlossberg">
-    <title>@yield('title', 'Tuspasos | Reflexology Andover')</title>
+    <title>@yield('title', 'Tus Pasos | Reflexology Andover')</title>
 
     <!-- Google Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Raleway:100' rel='stylesheet' type='text/css'>
@@ -155,11 +155,10 @@
                 <a href="{!! route('home') !!}">
                     {!! HTML::image('images/tuspas_logo.png', 'tuspasos logo', ['style' => 'margin-bottom: -10px;']) !!}
                 </a>
-
-                <div style="float: right;margin-top: 25px;">
-                    tel: 07514 024 008<br>
-                    email: info@tuspasosreflexology.co.uk<br>
-                    Andover | Wilton
+                <div class="hidden-xs" style="float: right;margin-top: 25px;">
+                        tel: 07514 024 008<br>
+                        email: info@tuspasosreflexology.co.uk<br>
+                        Andover  |  Wilton
                 </div>
             </div>
         </div>
@@ -182,6 +181,7 @@
                     <li><a href="{!! route('testimonials') !!}">testimonials</a></li>
                     <li><a href="{!! route('prices') !!}">prices</a></li>
                     <li><a href="{!! route('contact') !!}">contact</a></li>
+                    <li>&nbsp;</li>
                     <li>&nbsp;</li>
                     <li>&nbsp;</li>
                 </ul>

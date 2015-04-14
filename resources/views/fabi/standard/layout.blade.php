@@ -130,7 +130,7 @@
         }
 
         .turquoise {
-            color: #7FC6C1;
+            color: #7FC6C1 !important;
         }
 
         .section-header {
@@ -153,7 +153,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a href="{!! route('home') !!}">
-                    {!! HTML::image('images/tuspas_logo.png', 'tuspasos logo', ['style' => 'margin-bottom: -10px;']) !!}
+                    {!! HTML::image('images/tuspas_logo.png', 'tuspasos logo', ['style' => 'margin-top: 5px; margin-bottom: -10px;']) !!}
                 </a>
                 <div class="hidden-xs" style="float: right;margin-top: 25px;">
                         tel: 07514 024 008<br>
@@ -163,7 +163,7 @@
             </div>
         </div>
     </div>
-    <div class="header_bar bars" style="top: 0;height: 8px;"></div>
+    <div class="header_bar bars" style="top: 0;height: 8px;margin-bottom: 10px;"></div>
     <!-- Begin page content -->
     <div class="container-fluid">
         <div class="row">
@@ -186,7 +186,7 @@
                     <li>&nbsp;</li>
                 </ul>
             </div>
-            <div class="main col-md-9 col-sm-offset-2 col-md-offset-2">
+            <div class="main col-md-9 col-sm-offset-2 col-md-offset-2" style="min-height: 700px;">
                 @yield('content')
             </div>
         </div>
@@ -205,5 +205,31 @@
 {!! HTML::script('js/bootstrap.min.js') !!}
 
 {!! HTML::script('js/sidebar.js') !!}
+
+
+
+<script>
+    function activeTab() {
+        var panel_text = $('.section-header').find('.panel-body').html().trim();
+
+        $('.navbar-stacked').find('li').each(function(j, item) {
+
+            var li_item = $(this).find('a');
+
+            if(panel_text == 'welcome to <span class="turquoise">tus pasos reflexology</span>' && li_item.html() == 'home') {
+                li_item.addClass('turquoise');
+            } else if(li_item.html() == panel_text) {
+                li_item.addClass('turquoise');
+            } else {
+                li_item.removeClass('turquoise');
+            }
+        });
+    }
+
+
+    $(document).ready(function(){
+        activeTab();
+    });
+</script>
 </body>
 </html>

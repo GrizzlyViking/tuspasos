@@ -25,10 +25,10 @@
             leading reflexology practitioner. In order to provide the highest clinical practice standard,
             Fabiana continues training in different areas within Reflexology.</p>
 
-            <p>Fabiana is a full member of the Association of Reflexologists (AoR), governed by their ethics
-            and code of practice and Complementary & Natural Healthcare Council (CNHC). She is also
-            trained in First Aid for Appointed Persons and holds a full professional
-            indemnity insurance.</p>
+            <p>Fabiana is a full member of the Association of Reflexologists (AoR), governed by their strict
+            code of practice and ethics and registered with the Complementary & Natural Healthcare Council (CNHC),
+            the UK regulator for complementary health care. She is also trained in First Aid for Appointed Persons
+            and holds a full professional indemnity insurance.</p>
 
 
             <ul>

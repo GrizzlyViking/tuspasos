@@ -24,8 +24,8 @@
             <p>The therapist then use their hands to apply pressure to the feet and lower leg, hands or face
             dependent upon the type of reflexology chosen.</p>
 
-            <p>At Tus Pasos Reflexology appointments are given with adequate time. Should you require extra
-                time, it will be provided without additional charge. What is most important is that you reap the benefits of reflexology with each session.</p>
+            <p>At Tus Pasos Reflexology appointments are given with adequate time. Should your treatment require
+             extra time, it will be provided without additional charge. What is most important is that you reap the benefits of reflexology with each session.</p>
         </div>
 
         <div class="col-sm-5">

@@ -7,7 +7,7 @@
 @section('content')
     <div class="panel panel-default section-header">
         <div class="panel-body">
-            reflexology lymph drainage
+            lymph drainage
         </div>
     </div>
 

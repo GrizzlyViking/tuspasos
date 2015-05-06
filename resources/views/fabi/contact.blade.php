@@ -15,7 +15,7 @@
         <div class="col-sm-6 col-sm-offset-3" style="font-size: large;text-align: center; padding-bottom: 15px;">
             <b>tus pasos reflexology</b><br>
             tel. 07514 024 008<br>
-            email <a href="mailto:info@tuspasosreflexoglogy.co.uk" class="turquoise">info@tuspasosreflexoglogy.co.uk</a>
+            email <a href="mailto:info@tuspasosreflexology.co.uk" class="turquoise">info@tuspasosreflexology.co.uk</a>
         </div>
         <div class="col-sm-4 col-sm-offset-4">
             <div class="panel panel-default" style="background-color: #f8f8f8;">
@@ -27,7 +27,7 @@
         </div>
     </div>
     <div class="row">
-        <div class="col-sm-5 col-sm-offset-1" style="text-align: center;">
+        <div class="col-md-5 col-md-offset-1" style="text-align: center;min-width:301px;">
             <div>
                 At <span class="turquoise">SevenTsix Beauty and Wellbeing</span><br>
                 11 Waverley Buildings,<br>
@@ -41,7 +41,7 @@
             </div>
         </div>
 
-        <div class="col-sm-5" style="text-align: center;">
+        <div class="col-md-5" style="text-align: center; margin:10px;">
             At <span class="turquoise">Mio Medispa</span><br>
             18 West Street<br>
             Wilton,<br>

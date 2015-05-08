@@ -43,5 +43,9 @@
             At the end of this bespoke treatment I felt warm and comfortable and amazed that I had finally experienced a deeply relaxed state.
             In the days following the treatment I have noticed being able to move more freely and with a little less pain on occasions.
             Fabi is a skilled reflexologist and having discovered the potent effects of her treatments I have booked more with her. Thanks Fabi. <b class="turquoise">Cheryl</b></p></div>
+
+	<p>
+	I started going for reflexology because my feet and legs were swollen and painful due to lymphoedema. She had to work very lightly on me because of the pain. After my second treatment my lower leg was measured again and I had lost 2 1/2" inches which has not come back (that was a bonus). I am now walking better than I have for a long time. I would recommend reflexology, it really does work and is very relaxing, I also sleep better. Thank you Fabi. <b class="turquise">Daisy</b>
+	</p>
     </div>
 @stop

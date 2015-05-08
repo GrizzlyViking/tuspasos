@@ -56,17 +56,16 @@
     <div class="row" style="margin-top: 10px;">
         <div class="col-md-1 col-md-offset-4">
             <!-- Facebook Badge START --><a href="https://www.facebook.com/TusPasosReflexology" title="Tus Pasos Reflexology" target="_TOP">
-                <img class="img" src="images/FB-f-Logo__blue_29.png" style="border: 0px;" alt=""/></a><!-- Facebook Badge END -->
+                <img class="img" src="images/facebook_large.jpeg" style="width: 32px; height: 32px; border: 0px;" alt=""/></a><!-- Facebook Badge END -->
         </div>
         <div class="col-md-2" style="text-align: center;">
             <a href="https://twitter.com/tuspasos" class="twitter-follow-button" data-show-count="false" data-size="large">
-                {!! HTML::image('images/Twitter-icon.png') !!}
+                {!! HTML::image('images/twitter_large.jpeg', ['style' => 'width: 32px; height: 32px;']) !!}
             </a>
         </div>
         <div class="col-md-2"><a href="//plus.google.com/u/0/108157375223167832960?prsrc=3"
                                  rel="publisher" target="_top" style="text-decoration:none;">
-                <img src="//ssl.gstatic.com/images/icons/gplus-32.png" alt="Google+"
-                     style="border:0;width:32px;height:32px;"/>
+                {!! HTML::image('images/googleplus_large.jpeg', ['style' => 'width: 32px; height: 32px;']) !!}
             </a></div>
     </div>
 

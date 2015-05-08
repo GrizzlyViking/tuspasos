@@ -153,7 +153,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a href="{!! route('home') !!}">
-                    {!! HTML::image('images/tuspas_logo.png', 'tuspasos logo', ['style' => 'margin-top: 5px; margin-bottom: -10px;']) !!}
+                    {!! HTML::image('images/Logo_web_background.jpeg', 'tuspasos logo', ['style' => 'margin-top: 5px; margin-bottom: -10px;']) !!}
                 </a>
                 <div class="hidden-xs" style="float: right;margin-top: 25px;">
                         tel: 07514 024 008<br>
